@@ -13,7 +13,7 @@ async function main() {
 
     // conectar a la base de datos
     const connection = require('./lib/connectMongoose')
-    // inicializar la colección de agentes
+    // inicializar la colección de anuncios
     await initAnuncios();
     // desconectamos de la base de datos
     connection.close();
