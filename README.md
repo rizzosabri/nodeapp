@@ -35,13 +35,13 @@ GET  /api/anuncios?fields=nombre%20-_id
 
 {"results":[{"nombre":"Bicicleta"},{"nombre":"iPhone 3GS"},{"nombre":"Moto"},{"nombre":"Auto"},{"nombre":"Tv smart"},{"nombre":"Sillon"},{"nombre":"Escritorio"},{"nombre":"notebook"}]}
 
-LISTA DE ANUNCIOS PAGINACION
+## LISTA DE ANUNCIOS PAGINACION
 
 GET  /api/anuncios?skip=0&limit=2
 
 {"results":[{"_id":"63bafc6b131862787c86d3b7","nombre":"Bicicleta","venta":true,"precio":230.15,"foto":"bici.jpg","tags":["lifestyle","motor"],"__v":0},{"_id":"63bafc6b131862787c86d3b8","nombre":"iPhone 3GS","venta":false,"precio":50,"foto":"iphone.jpg","tags":["lifestyle","mobile"],"__v":0}]}
 
-LISTA DE ANUNCIOS CON FILTROS
+## LISTA DE ANUNCIOS CON FILTROS
 
 * POR NOMBRE: GET  /api/anuncios?nombre=Auto
 
