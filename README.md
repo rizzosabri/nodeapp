@@ -68,12 +68,19 @@ GET    /api/tags
 
 ## VER LAS IMAGINES
 http://localhost:3000/images/auto.jpg
+
 http://localhost:3000/images/bici.jpg
+
 http://localhost:3000/images/escritorio.jpg
+
 http://localhost:3000/images/iphone.jpg
+
 http://localhost:3000/images/moto.jpg
+
 http://localhost:3000/images/notebook.jpg
+
 http://localhost:3000/images/sillon.jpg
+
 http://localhost:3000/images/tv.jpg
 
 
