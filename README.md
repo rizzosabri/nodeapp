@@ -21,13 +21,15 @@ npm run dev
 
 # API Documentacion
 
-LISTA DE ANUNCIOS SIN FILTROS:
+ejemplos
+
+## LISTA DE ANUNCIOS SIN FILTROS:
 
 GET  /api/anuncios
 
 {"results":[{"_id":"63ba8c90e855cc673b53bfef","nombre":"Auto","venta":false,"precio":5000,"foto":"auto.png","tags":["lifestyle","motor"],"__v":0},}
 
-LISTA DE ANUNCIOS POR CAMPOS (NOMBRE, PRECIO, VENTA, TAGS, FOTO): 
+## LISTA DE ANUNCIOS POR CAMPOS (NOMBRE, PRECIO, VENTA, TAGS, FOTO): 
 
 GET  /api/anuncios?fields=nombre%20-_id
 
