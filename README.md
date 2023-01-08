@@ -3,19 +3,18 @@
 
 * Install dependencies:
 
-
 npm install
 
-
 * Load initial data to database:
+
 npm run init-db
 
-"""
 * Start the application in production with:
+
 npm start
 
-"""
 * Start the application in development with:
+
 npm run dev
 
 #### When the application is started is alocated on localhost:3000.
