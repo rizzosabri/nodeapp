@@ -66,7 +66,7 @@ GET    /api/tags
 {"tags":["lifestyle","mobile","motor","work"]}
 
 
-## VER LAS IMAGINES
+## VER LAS IMÁGENES
 http://localhost:3000/images/auto.jpg
 
 http://localhost:3000/images/bici.jpg
