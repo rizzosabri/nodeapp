@@ -59,7 +59,24 @@ GET  /api/anuncios?skip=0&limit=2
 * POR TAGS GET    /api/anuncios?tags=motor
 {"results":[{"_id":"63bafc6b131862787c86d3b7","nombre":"Bicicleta","venta":true,"precio":230.15,"foto":"bici.jpg","tags":["lifestyle","motor"],"__v":0},{"_id":"63bafc6b131862787c86d3b9","nombre":"Moto","venta":true,"precio":1000,"foto":"moto.jpg","tags":["lifestyle","motor"],"__v":0},{"_id":"63bafc6b131862787c86d3ba","nombre":"Auto","venta":false,"precio":5000,"foto":"auto.jpg","tags":["lifestyle","motor"],"__v":0}]}
 
-LISTA DE TAGS
+## LISTA DE TAGS
 
-LAS IMAGINES
+GET    /api/tags
+
+{"tags":["lifestyle","mobile","motor","work"]}
+
+
+## VER LAS IMAGINES
+http://localhost:3000/images/auto.jpg
+http://localhost:3000/images/bici.jpg
+http://localhost:3000/images/escritorio.jpg
+http://localhost:3000/images/iphone.jpg
+http://localhost:3000/images/moto.jpg
+http://localhost:3000/images/notebook.jpg
+http://localhost:3000/images/sillon.jpg
+http://localhost:3000/images/tv.jpg
+
+
+
+
 
