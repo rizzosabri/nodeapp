@@ -4,9 +4,6 @@ var express = require('express');
 var router = express.Router();
 const Anuncio = require("../models/Anuncio");
 
-// Anuncio.find((err,anuncios) =>{
-//      console.log(anuncios) ;
-// })
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
